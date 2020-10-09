@@ -35,16 +35,18 @@ gem 'bootsnap', '>= 1.4.2', require: false
   gem "devise"
   #ページネーション
   gem "kaminari"
+  #トークン認証
+  gem 'devise_token_auth'
   #schemaをmodelに書き出し
   gem 'annotate'
   #検索機能
-  #gem 'ransack'
+  gem 'ransack'
   #権限管理
-  #gem 'cancancan'
+  gem 'cancancan'
   #画像アップロード
-  #gem 'carrierwave'
+  gem 'carrierwave'
   #画像のリサイズ
-  #gem 'mini_magick'
+  gem 'mini_magick'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
